@@ -1,0 +1,152 @@
+[
+    {
+        "model": "products.component",
+        "pk": 1,
+        "fields": {
+            "description": "Plastic HuCard sleeve",
+            "image": null,
+            "name": "HuCard Sleeve"
+        }
+    },
+    {
+        "model": "products.component",
+        "pk": 2,
+        "fields": {
+            "description": "Plastic HuCard sleeve with ridges, used on all late TTI releases and some other titles.",
+            "image": null,
+            "name": "HuCard Sleeve (ridged)"
+        }
+    },
+    {
+        "model": "products.component",
+        "pk": 3,
+        "fields": {
+            "description": "Black CD case",
+            "image": null,
+            "name": "TurboGrafx CD case (black)"
+        }
+    },
+    {
+        "model": "products.component",
+        "pk": 4,
+        "fields": {
+            "description": "White CD case",
+            "image": null,
+            "name": "TurboGrafx CD case (white)"
+        }
+    },
+    {
+        "model": "products.component",
+        "pk": 5,
+        "fields": {
+            "description": "Styrofoam at bottom of box",
+            "image": null,
+            "name": "TurboGrafx Box Styrofoam"
+        }
+    },
+    {
+        "model": "products.component",
+        "pk": 6,
+        "fields": {
+            "description": "Plastic tray that holds manual and HuCard, included in TTI releases.",
+            "image": null,
+            "name": "TurboGrafx Box Platic Tray"
+        }
+    },
+
+    {
+        "model": "products.turbografxhucard",
+        "pk": 105,
+        "fields": {
+            "components": [
+                1,
+                5
+            ],
+            "product_number": "TGX020005",
+            "name": "Alien Crush"
+        }
+    },
+    {
+        "model": "products.turbografxhucard",
+        "pk": 108,
+        "fields": {
+            "components": [
+                1,
+                5
+            ],
+            "product_number": "TGX020008",
+            "name": "China Warrior"
+        }
+    },
+    {
+        "model": "products.turbografxhucard",
+        "pk": 111,
+        "fields": {
+            "components": [
+                1,
+                5
+            ],
+            "product_number": "TGX040011",
+            "name": "R-Type"
+        }
+    },
+    {
+        "model": "products.turbografxhucard",
+        "pk": 179,
+        "fields": {
+            "components": [
+                2,
+                6
+            ],
+            "product_number": "TGX040079",
+            "name": "Jackie Chan Action Kung Fu",
+            "description": ""
+        }
+    },
+    {
+        "model": "products.turbografxhucard",
+        "pk": 183,
+        "fields": {
+            "components": [
+                2,
+                6
+            ],
+            "product_number": "TGX040083",
+            "name": "Legend Of Hero Tonma",
+            "description": ""
+        }
+    },
+    {
+        "model": "products.turbografxhucard",
+        "pk": 184,
+        "fields": {
+            "msrp": "49",
+            "isbn": "12345",
+            "image": 1,
+            "components": [
+                2,
+                6
+            ],
+            "product_number": "TGX040084",
+            "name": "Air Zonk",
+            "description": "Air Zonk game"
+        }
+    },
+    {
+        "model": "products.turbografxhucard",
+        "pk": 193,
+        "fields": {
+            "msrp": null,
+            "date_released": null,
+            "isbn": null,
+            "image": null,
+            "components": [
+                2,
+                6
+            ],
+            "product_number": "TGX040093",
+            "name": "Bomberman '93",
+            "description": "Sequel to bomberman"
+        }
+    }
+]

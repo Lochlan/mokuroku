@@ -1,0 +1,11 @@
+[
+    {
+        "model": "products.image",
+        "pk": 1,
+        "fields": {
+            "name": "kitty",
+            "url": "http://placekitten.com/200/300",
+            "description": "meow!"
+        }
+    }
+]
